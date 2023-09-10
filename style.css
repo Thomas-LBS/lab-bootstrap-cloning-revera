@@ -15,7 +15,7 @@ body {
 }
 
 .grey {
-    color: #777;
+    color: rgb(170, 170, 170);
 }
 
 .bg-white {
@@ -45,7 +45,7 @@ color: #ed564b;
 /* header navbar */
 header{
     background-color: white;
-    margin: 10px 25px;
+    margin: 15px 25px;
 }
 
 .hr-size{
@@ -55,16 +55,11 @@ header{
 }
 
 /* Carousel */
-#carouselExampleCaptions{
-    background-color: #777;
-}
-
 .img-carousel {
-    filter: grayscale(95%);
-    image-rendering: pixelated;
-    opacity: 60%;
+    filter: grayscale(100%);
+    opacity: 90%;
     width: 100%;
-    height: 500px;
+    height: 550px;
     object-fit: cover;
     position: relative;
     
@@ -73,7 +68,7 @@ header{
 .img-pixelized{
     background-image: url(/starter-code/img/overlay.png);
     width: 100%;
-    height: 500px;
+    height: 550px;
     position: absolute;
     top: 0;
     left: 0;
@@ -110,33 +105,142 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: #ed564b;
+    background-color: rgba(237, 86, 75, 1)    ;
     height: 285px;
 }
 
 #hr-usecases{
     width: 100%;
     height: 5px;
-    background-color:rgb(255, 255, 255);
+    background-color:rgba(255, 255, 255, 0.5);
     border: none;
     margin: 0;
 }
 
 #cases {
     color: white;
-    width: 1200px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.vignette{
+    padding: 0 10px;
+}
+
 .case-icon{
-    width: 25px;    
+    width: 20px;    
 }
 
 .circle-icon{
-    width: 60px;
-    height: 60px;
-    border: solid 5px white;
+    width: 70px;
+    height: 70px;
+    border: solid 4px white;
     border-radius: 100px;
     margin: 20px auto;
+}
+
+/* Section lastests */
+#latest h1.black {
+    padding-top: 2em;
+}
+
+#latest hr{
+    padding-bottom: 0.75em;
+}
+
+#latest img{
+    border: none;
+    height: 200px;   
+    object-fit: cover;    
+}
+
+/* latest projects */
+
+.latest-articles{
+    padding-bottom: 2em;
+}
+
+.latest-projects a{
+    text-decoration: none;
+    color:black;
+}
+
+/* latest articles */
+.latest-articles a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.latest-articles span {
+    font-size: 1em;
+    color: rgb(96, 96, 96);
+    font-weight: bold;
+}
+
+a.red {
+    color: #ed564b;
+    font-size: 1em;
+}
+
+a.red:hover {
+    color: black;
+}
+
+.latest-articles p{
+    font-size: 1em;
+    color: #777;
+    padding-top: 15px;
+}
+
+
+/* footer */
+footer{
+    color: white;
+    background-color: rgb(59, 59, 59);
+    font-size: 0.75em;
+}
+
+footer div.container {
+    margin: 3em auto;
+}
+
+footer h3{
+    padding-bottom: 1em;
+}
+
+footer p{
+    color: rgb(170, 170, 170);
+    margin-bottom: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(170, 170, 170);    
+}
+
+footer a:hover {
+    color: white;
+}
+
+hr#sep{
+    height: 5px;
+    background-color: #ed564b;
+    opacity: 1;
+}
+
+footer hr {
+    margin: 0.5em 0;
+}
+
+/* copyrights footer */
+#copyrights{
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+
+.copyrights-text{
+    color: white;
+    padding: 20px 0 20px 200px;    
 }
